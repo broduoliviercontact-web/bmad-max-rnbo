@@ -1,0 +1,156 @@
+# Cycling '74 User Guide Corpus
+
+Scraped at: 2026-05-29T17:40:09.252668+00:00
+Source: https://docs.cycling74.com/userguide/
+
+Use this corpus as local reference context for Max/MSP, RNBO, Max for Live, Jitter, Gen, MIDI, patching mechanics, timing, scripting, and troubleshooting.
+
+## Pages
+
+- [Overview](pages/userguide.md) — `/userguide/`
+- [New in Max](pages/userguide__new_in_max9.md) — `/userguide/new_in_max9/`
+- [Glossary of Common Terms](pages/userguide__glossary_common_terms.md) — `/userguide/glossary_common_terms/`
+- [Ableton DSP](pages/userguide__abl.md) — `/userguide/abl/`
+- [Frequency Domain](pages/userguide__frequency_domain.md) — `/userguide/frequency_domain/`
+- [MC Overview](pages/userguide__mc.md) — `/userguide/mc/`
+- [MC and Gen](pages/userguide__mc__mc_gen.md) — `/userguide/mc/mc_gen/`
+- [MC Wrapper](pages/userguide__mc__mc_wrapper.md) — `/userguide/mc/mc_wrapper/`
+- [Multi-Channel I/O](pages/userguide__audio_channels.md) — `/userguide/audio_channels/`
+- [Non-Real-Time](pages/userguide__non_realtime.md) — `/userguide/non_realtime/`
+- [Plugins](pages/userguide__plugins.md) — `/userguide/plugins/`
+- [Polyphony](pages/userguide__polyphony.md) — `/userguide/polyphony/`
+- [Recording](pages/userguide__recording.md) — `/userguide/recording/`
+- [RNBO](pages/userguide__rnbo.md) — `/userguide/rnbo/`
+- [Sample Accurate Messages](pages/userguide__sample_accurate_messages.md) — `/userguide/sample_accurate_messages/`
+- [Color Palette](pages/userguide__color_palette.md) — `/userguide/color_palette/`
+- [Color Themes](pages/userguide__color_themes.md) — `/userguide/color_themes/`
+- [Dynamic Colors](pages/userguide__dynamic_colors.md) — `/userguide/dynamic_colors/`
+- [Format Palette](pages/userguide__format_palette.md) — `/userguide/format_palette/`
+- [Styles](pages/userguide__styles.md) — `/userguide/styles/`
+- [Syntax Coloring](pages/userguide__syntax_coloring.md) — `/userguide/syntax_coloring/`
+- [Arrays](pages/userguide__arrays.md) — `/userguide/arrays/`
+- [Dictionaries](pages/userguide__dictionaries.md) — `/userguide/dictionaries/`
+- [Integers and Floats](pages/userguide__integers_vs_floats.md) — `/userguide/integers_vs_floats/`
+- [Strings](pages/userguide__strings.md) — `/userguide/strings/`
+- [Debugging and Probing](pages/userguide__debugging_and_probing.md) — `/userguide/debugging_and_probing/`
+- [Error Messages](pages/userguide__error_messages.md) — `/userguide/error_messages/`
+- [Illustration Mode](pages/userguide__illustration_mode.md) — `/userguide/illustration_mode/`
+- [Max Console](pages/userguide__max_console.md) — `/userguide/max_console/`
+- [File Browser](pages/userguide__file_browser.md) — `/userguide/file_browser/`
+- [Filetypes](pages/userguide__filetypes.md) — `/userguide/filetypes/`
+- [Search Path](pages/userguide__search_path.md) — `/userguide/search_path/`
+- [Gen Overview](pages/userguide__gen___gen_overview.md) — `/userguide/gen/_gen_overview/`
+- [Common Operators](pages/userguide__gen__gen_common_operators.md) — `/userguide/gen/gen_common_operators/`
+- [Gen Expr](pages/userguide__gen__gen_genexpr.md) — `/userguide/gen/gen_genexpr/`
+- [Gen~ Operators](pages/userguide__gen__gen~_operators.md) — `/userguide/gen/gen~_operators/`
+- [Jitter Operators](pages/userguide__gen__gen_jitter_operators.md) — `/userguide/gen/gen_jitter_operators/`
+- [Depth and Blending](pages/userguide__jitter__depth_layer_blend.md) — `/userguide/jitter/depth_layer_blend/`
+- [Geometry](pages/userguide__jitter__geometry.md) — `/userguide/jitter/geometry/`
+- [Graphics Engine](pages/userguide__jitter__graphics_engine.md) — `/userguide/jitter/graphics_engine/`
+- [Graphics Processing](pages/userguide__jitter__graphics_processing.md) — `/userguide/jitter/graphics_processing/`
+- [Jitter Expr](pages/userguide__jitter__jitter_expr.md) — `/userguide/jitter/jitter_expr/`
+- [JXS File Format](pages/userguide__jitter__jxs_file_format.md) — `/userguide/jitter/jxs_file_format/`
+- [Matrices](pages/userguide__jitter__matrix.md) — `/userguide/jitter/matrix/`
+- [Render Passes](pages/userguide__jitter__render_passes.md) — `/userguide/jitter/render_passes/`
+- [Textures](pages/userguide__jitter__textures.md) — `/userguide/jitter/textures/`
+- [Video](pages/userguide__jitter__video.md) — `/userguide/jitter/video/`
+- [Video Engine](pages/userguide__jitter__video_engine.md) — `/userguide/jitter/video_engine/`
+- [Action Menu](pages/userguide__action_menu.md) — `/userguide/action_menu/`
+- [Documentation Window](pages/userguide__documentation_window.md) — `/userguide/documentation_window/`
+- [Extras Menu](pages/userguide__extras_menu.md) — `/userguide/extras_menu/`
+- [Inspector](pages/userguide__inspector.md) — `/userguide/inspector/`
+- [Object Reference](pages/userguide__object_reference.md) — `/userguide/object_reference/`
+- [Preferences](pages/userguide__preferences_and_settings.md) — `/userguide/preferences_and_settings/`
+- [Sidebar Search](pages/userguide__sidebar_search.md) — `/userguide/sidebar_search/`
+- [Toolbars](pages/userguide__patcher_window.md) — `/userguide/patcher_window/`
+- [Mapping](pages/userguide__mapping.md) — `/userguide/mapping/`
+- [MIDI](pages/userguide__midi.md) — `/userguide/midi/`
+- [OSC](pages/userguide__OSC.md) — `/userguide/OSC/`
+- [Parameter Connect](pages/userguide__param_connect.md) — `/userguide/param_connect/`
+- [Parameter Mode](pages/userguide__parameter_mode.md) — `/userguide/parameter_mode/`
+- [Presets and Interpolation](pages/userguide__presets_and_interpolation.md) — `/userguide/presets_and_interpolation/`
+- [Saving and Pattr](pages/userguide__pattr.md) — `/userguide/pattr/`
+- [Snapshots](pages/userguide__snapshots.md) — `/userguide/snapshots/`
+- [Conversion Cheat Sheet](pages/userguide__conversion.md) — `/userguide/conversion/`
+- [Messages](pages/userguide__messages.md) — `/userguide/messages/`
+- [Message Types](pages/userguide__message_types.md) — `/userguide/message_types/`
+- [Objects](pages/userguide__objects.md) — `/userguide/objects/`
+- [Patcher Lifecycle](pages/userguide__patcher_lifecycle.md) — `/userguide/patcher_lifecycle/`
+- [Patching](pages/userguide__patching.md) — `/userguide/patching/`
+- [Patch Cords](pages/userguide__patch_cords.md) — `/userguide/patch_cords/`
+- [Patching Mechanics](pages/userguide__patching_mechanics.md) — `/userguide/patching_mechanics/`
+- [Web Browser](pages/userguide__web_browser.md) — `/userguide/web_browser/`
+- [Abstractions](pages/userguide__abstractions.md) — `/userguide/abstractions/`
+- [Bpatchers](pages/userguide__bpatchers.md) — `/userguide/bpatchers/`
+- [Custom UI Objects](pages/userguide__custom_ui_objects.md) — `/userguide/custom_ui_objects/`
+- [Externals](pages/userguide__externals.md) — `/userguide/externals/`
+- [Packages](pages/userguide__packages.md) — `/userguide/packages/`
+- [Package Manager](pages/userguide__package_manager.md) — `/userguide/package_manager/`
+- [Projects](pages/userguide__projects.md) — `/userguide/projects/`
+- [Prototypes](pages/userguide__prototypes.md) — `/userguide/prototypes/`
+- [Snippets](pages/userguide__snippets.md) — `/userguide/snippets/`
+- [Subpatchers](pages/userguide__subpatchers.md) — `/userguide/subpatchers/`
+- [Templates](pages/userguide__templates.md) — `/userguide/templates/`
+- [Scripting Overview](pages/userguide__scripting_overview.md) — `/userguide/scripting_overview/`
+- [External Text Editor](pages/userguide__external_text_editor.md) — `/userguide/external_text_editor/`
+- [JavaScript](pages/userguide__javascript.md) — `/userguide/javascript/`
+- [Lua Overview](pages/userguide__lua__jit_gl_lua_overview.md) — `/userguide/lua/jit_gl_lua_overview/`
+- [Max Define Message](pages/userguide__max_define.md) — `/userguide/max_define/`
+- [Messages to Max](pages/userguide__controlling_max_with_messages.md) — `/userguide/controlling_max_with_messages/`
+- [REPL](pages/userguide__repl.md) — `/userguide/repl/`
+- [Sharing Overview](pages/userguide__sharing.md) — `/userguide/sharing/`
+- [Standalones and Collectives](pages/userguide__standalones_and_collectives.md) — `/userguide/standalones_and_collectives/`
+- [Scheduler](pages/userguide__scheduler.md) — `/userguide/scheduler/`
+- [Time Value Syntax](pages/userguide__time_value_syntax.md) — `/userguide/time_value_syntax/`
+- [Transport](pages/userguide__transport.md) — `/userguide/transport/`
+- [Overview](pages/userguide__m4l___m4l_overview.md) — `/userguide/m4l/_m4l_overview/`
+- [Live API Overview](pages/userguide__m4l__live_api_overview.md) — `/userguide/m4l/live_api_overview/`
+- [Creating Devices](pages/userguide__m4l__live_creatingdevices.md) — `/userguide/m4l/live_creatingdevices/`
+- [User Interfaces](pages/userguide__m4l__live_userinterfaces.md) — `/userguide/m4l/live_userinterfaces/`
+- [Automation](pages/userguide__m4l__live_automation.md) — `/userguide/m4l/live_automation/`
+- [Sharing Devices](pages/userguide__m4l__live_sharing.md) — `/userguide/m4l/live_sharing/`
+- [Timing](pages/userguide__m4l__live_timing.md) — `/userguide/m4l/live_timing/`
+- [Creating Audio Effect Devices](pages/userguide__m4l__live_audiodevices.md) — `/userguide/m4l/live_audiodevices/`
+- [Creating Devices that use the Live API](pages/userguide__m4l__live_api.md) — `/userguide/m4l/live_api/`
+- [Creating MIDI Effects](pages/userguide__m4l__live_midieffects.md) — `/userguide/m4l/live_midieffects/`
+- [Device Parameters in Max for Live](pages/userguide__m4l__live_parameters.md) — `/userguide/m4l/live_parameters/`
+- [Freezing Max for Live Devices](pages/userguide__m4l__live_freezing.md) — `/userguide/m4l/live_freezing/`
+- [Max for Live Limitations](pages/userguide__m4l__live_limitations.md) — `/userguide/m4l/live_limitations/`
+- [Max for Live MIDI Tools](pages/userguide__m4l__live_miditools.md) — `/userguide/m4l/live_miditools/`
+- [Presets](pages/userguide__m4l__live_presets.md) — `/userguide/m4l/live_presets/`
+- [Preview Mode](pages/userguide__m4l__live_preview.md) — `/userguide/m4l/live_preview/`
+- [Resolving Conflicts in Frozen Devices](pages/userguide__m4l__live_resolveconflicts.md) — `/userguide/m4l/live_resolveconflicts/`
+- [The Parameters Window](pages/userguide__m4l__live_parameterswindow.md) — `/userguide/m4l/live_parameterswindow/`
+- [Unfreezing Devices](pages/userguide__m4l__live_unfreezing.md) — `/userguide/m4l/live_unfreezing/`
+- [Using pattr in Live Devices](pages/userguide__m4l__live_pattr.md) — `/userguide/m4l/live_pattr/`
+- [Using Symbols in Max for Live](pages/userguide__m4l__live_symbols.md) — `/userguide/m4l/live_symbols/`
+- [Working With Files in Max for Live](pages/userguide__m4l__live_files.md) — `/userguide/m4l/live_files/`
+- [Gen Features for MC](pages/userguide__mc__mc_gen_newfeatures.md) — `/userguide/mc/mc_gen_newfeatures/`
+- [Generating Values for All MC Wrapper Instances](pages/userguide__mc__mc_generated_messages.md) — `/userguide/mc/mc_generated_messages/`
+- [MC and Max for Live](pages/userguide__mc__mc_maxforlive_interface.md) — `/userguide/mc/mc_maxforlive_interface/`
+- [MC Channel Topology](pages/userguide__mc__mc_channel_topology.md) — `/userguide/mc/mc_channel_topology/`
+- [MC Dynamic Routing](pages/userguide__mc__mc_dynamic_routing.md) — `/userguide/mc/mc_dynamic_routing/`
+- [MC Event Objects](pages/userguide__mc__mc_events_newobjects.md) — `/userguide/mc/mc_events_newobjects/`
+- [MC Function Generators](pages/userguide__mc__mc_function_generators.md) — `/userguide/mc/mc_function_generators/`
+- [MC Gen Instances](pages/userguide__mc__mc_gen_instances.md) — `/userguide/mc/mc_gen_instances/`
+- [MC Gen Operators](pages/userguide__mc__mc_gen_newobjects.md) — `/userguide/mc/mc_gen_newobjects/`
+- [MC Managed Polyphony](pages/userguide__mc__mc_poly_without_polytilde.md) — `/userguide/mc/mc_poly_without_polytilde/`
+- [MC Mixing and Panning](pages/userguide__mc__mc_mixing_panning.md) — `/userguide/mc/mc_mixing_panning/`
+- [MC Patchcords](pages/userguide__mc__mc_patchcords.md) — `/userguide/mc/mc_patchcords/`
+- [MC Polyphony](pages/userguide__mc__mc_polyphony.md) — `/userguide/mc/mc_polyphony/`
+- [MC Recording and Playback](pages/userguide__mc__mc_multichannel_sources.md) — `/userguide/mc/mc_multichannel_sources/`
+- [MC Signal Manipulation Objects](pages/userguide__mc__mc_signals_newobjects.md) — `/userguide/mc/mc_signals_newobjects/`
+- [MC Spatialization](pages/userguide__mc__mc_spatialization.md) — `/userguide/mc/mc_spatialization/`
+- [MC Visualization and Probing](pages/userguide__mc__mc_visualization.md) — `/userguide/mc/mc_visualization/`
+- [MC vs MCS Objects](pages/userguide__mc__mc_mcvsmcs.md) — `/userguide/mc/mc_mcvsmcs/`
+- [Messages to the MC Wrapper](pages/userguide__mc__mc_messages_to_wrapper.md) — `/userguide/mc/mc_messages_to_wrapper/`
+- [Multichannel Delay Systems](pages/userguide__mc__mc_audio_delays.md) — `/userguide/mc/mc_audio_delays/`
+- [Polyphony Using mc.poly~](pages/userguide__mc__mc_poly_newfeatures.md) — `/userguide/mc/mc_poly_newfeatures/`
+- [Polyphony with Multiple Patchers](pages/userguide__mc__mc_poly_multiple_patchers.md) — `/userguide/mc/mc_poly_multiple_patchers/`
+- [Processing Events from MC Objects](pages/userguide__mc__mc_events_newfunctions.md) — `/userguide/mc/mc_events_newfunctions/`
+- [Using mc.gen with the MC Wrapper](pages/userguide__mc__mc_gen_event_wrapper.md) — `/userguide/mc/mc_gen_event_wrapper/`
+- [Using Plug-ins with MC](pages/userguide__mc__mc_plugins.md) — `/userguide/mc/mc_plugins/`
+- [jit.gl.lua Color Bindings](pages/userguide__lua__jit_gl_lua_color_bindings.md) — `/userguide/lua/jit_gl_lua_color_bindings/`
+- [jit.gl.lua OpenGL Bindings](pages/userguide__lua__jit_gl_lua_opengl_bindings.md) — `/userguide/lua/jit_gl_lua_opengl_bindings/`
+- [jit.gl.lua OpenGL GLU Bindings](pages/userguide__lua__jit_gl_lua_opengl_glu_bindings.md) — `/userguide/lua/jit_gl_lua_opengl_glu_bindings/`
+- [jit.gl.lua Vector Math](pages/userguide__lua__jit_gl_lua_vector_math.md) — `/userguide/lua/jit_gl_lua_vector_math/`
