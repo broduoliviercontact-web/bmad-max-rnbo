@@ -1,6 +1,8 @@
 # BMAD-MAX-RNBO
 
-Méthode agentique pour concevoir, auditer, documenter et exporter des projets Max/MSP, RNBO, Max for Live, Gen, Jitter et Web Audio. :)
+**Version : v1.0.0**
+
+Méthode agentique pour concevoir, auditer, documenter et exporter des projets Max/MSP, RNBO, Max for Live, Gen, Jitter et Web Audio.
 
 ## Objectif
 
@@ -12,7 +14,7 @@ idée → brief → PRD → architecture Max → boundary RNBO → implémentati
 
 ## Principe
 
-BMAD-MAX-RNBO ne remplace pas Max/MSP.  
+BMAD-MAX-RNBO ne remplace pas Max/MSP.
 Il organise le travail des agents autour de règles claires :
 
 - utiliser la documentation locale Cycling '74 avant de proposer une solution ;
@@ -20,6 +22,16 @@ Il organise le travail des agents autour de règles claires :
 - générer ou modifier les `.maxpat` avec une API de patching quand c'est possible ;
 - auditer les patches avec des règles Max/RNBO ;
 - produire une documentation lisible pour humain et agent.
+
+## Runtime recommandé
+
+- Claude comme agent principal.
+- Modèles Ollama Cloud pour le raisonnement et le code.
+- Max 9 + RNBO pour validation audio/visuelle.
+- Taylor Brook MAX-MSP_CC_Framework / Patcher API quand disponible.
+- React/Vite pour les exports web.
+
+Aucune hypothèse Free Claude Code.
 
 ## Structure
 
@@ -34,31 +46,44 @@ examples/     exemples de projets
 docs/         corpus local Cycling '74 User Guide
 ```
 
-## Runtime recommandé
+## Documentation v1
 
-- Claude comme agent principal.
-- Modèles Ollama Cloud pour le raisonnement et le code.
-- Max 9 + RNBO pour validation audio/visuelle.
-- Taylor Brook MAX-MSP_CC_Framework / Patcher API quand disponible.
-- React/Vite pour les exports web.
+- [Installation](INSTALL.md)
+- [Usage](USAGE.md)
+- [Prompts prêts à copier](PROMPTS.md)
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
+- [Troubleshooting](TROUBLESHOOTING.md)
+- [Contribution](CONTRIBUTING.md)
 
 ## Démarrage rapide
 
-1. Copier le corpus Cycling '74 dans :
+1. Cloner le repo :
+
+```bash
+git clone https://github.com/broduoliviercontact-web/bmad-max-rnbo.git
+cd bmad-max-rnbo
+```
+
+2. Relier ou copier le corpus Cycling '74 dans :
 
 ```txt
 docs/cycling74-userguide/
 ```
 
-2. Copier `BMAD_MAX_AGENT_BRIEF.md` à la racine du projet.
+3. Créer un projet :
 
-3. Lancer un workflow :
+```bash
+python3 scripts/scaffold_project.py split-flap-musical-clock
+```
+
+4. Lancer le workflow :
 
 ```txt
 workflows/create-rnbo-web-export.md
 ```
 
-4. Produire les documents projet :
+5. Produire les documents projet :
 
 ```txt
 templates/PROJECT_BRIEF.md
@@ -77,3 +102,7 @@ RNBO-compatible
 Max for Live-specific
 Web-exportable
 ```
+
+## Statut v1
+
+Cette v1 pose le cadre de travail : agents, workflows, templates, checklists, scripts de base et documentation d'usage. Les futures versions pourront ajouter un audit `.maxpat` plus profond, une base de compatibilité RNBO enrichie et des exemples complets exportables.
