@@ -1,6 +1,6 @@
 # BMAD-MAX-RNBO
 
-Méthode agentique pour concevoir, auditer, documenter et exporter des projets Max/MSP, RNBO, Max for Live, Gen, Jitter et Web Audio.
+Méthode agentique pour concevoir, auditer, documenter et exporter des projets Max/MSP, RNBO, Max for Live, Gen, Jitter et Web Audio. :)
 
 ## Objectif
 
